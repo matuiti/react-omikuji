@@ -21,7 +21,7 @@ class App extends React.Component {
   render() {
     return (
       <div className={`text-center flex flex-col gap-6 bg-pink-300 p-8`}>
-        <h1 className={`font-bold text-3xl`}>おみくじ</h1>
+        <h1 className={`font-bold text-3xl`}>おみくじ!</h1>
         <p className={`bg-yellow-200 m-auto p-10`}>{this.state.currentOmikuji}</p>
         <button className={`pt-1 pb-1 pl-4 pr-4 m-auto bg-slate-800 text-white hover:cursor-pointer hover:opacity-40 hover:transition-all rounded-md`} onClick={() => this.handleClick()}>おみくじを引く</button>
       </div>
